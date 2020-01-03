@@ -4,6 +4,8 @@ body,html{
 	width: 100%;
 	height: 100%;
 }
+
+/*first section*/
 .first-section {
 
     background-image: url("../img/first-background.jpg");
@@ -38,4 +40,15 @@ p.paragraph-section-1 {
 }
 img.mouse-scroll-settings {
     margin-top: 65px;
+}
+/*End first sectionn*/
+
+
+/*second section*/
+.second-section {
+    background-image: url(../img/second-background.jpg);
+    height: 512px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
