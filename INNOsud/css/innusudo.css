@@ -3,6 +3,7 @@ body,html{
 	padding-right:0px;
 	width: 100%;
 	height: 100%;
+    overflow-x: hidden;
 }
 
 /*first section*/
@@ -202,7 +203,7 @@ p.about-us-p.text-center.mt-5 {
     font-size: 30px;
 }
 img.about-imgs.different-styles {
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 hr.hr-line6 {
     background: #222222;
@@ -230,8 +231,196 @@ button.apply-btn {
 
 
 
-
-
-
-
 /*section 7*/
+
+/*section 8*/
+
+.video-section{
+background-image: url("../img/video-background.jpg");
+width:100%;
+height: 500px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+/*section 8*/
+
+/*section 9*/
+h1.carousel-heading.text-center {
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+hr.courousel-line {
+    background: #222222;
+    width: 86px;
+    height: 2px;
+    margin-top: 50px;
+}
+p.carousel-text.text-center {
+    color: #222222;
+    font-size: 30px;
+    margin-top: 50px;
+}
+p.estimonial-p {
+    color: #222222;
+}
+
+
+
+
+/*section 9*/
+
+
+
+/*section 10*/
+.section-10{
+background-image: url("../img/bluemac-background.jpg");
+width:100%;
+height: 500px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+button.quote-button {
+    width: 423px;
+    height: 96px;
+    background: transparent;
+    border: 3px solid #fff;
+    margin-top: 250px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*section 10*/
+
+/*section 11*/
+h1.touch-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+hr.hr-touch-area {
+    background: #222222;
+    width: 86px;
+    height: 2px;
+    margin-top: 60px;
+}
+p.text-get-touch {
+    color: #222222;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+
+
+
+
+/*section 11*/
+
+/*footer*/
+.col-md-4.col-footer{
+
+    background-image:url("../img/first-footer-area.jpg");
+    width: 615px;
+    height: 500px;
+
+}
+.col-md-8.col-footer-2{
+    background-image:url("../img/second-footer-area.jpg");
+    width: 985px;
+    height: 500px;
+
+}
+h1.footer1-area {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 110px;
+}
+
+p.location {
+    font-size: 22px;
+}
+.size-styling{
+
+    color: #222222;
+    font-size: 30px;
+    padding: 10px;
+}
+.container.form-container {
+    margin-top: 100px;
+}
+input.input-footer {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background: transparent;
+    border-bottom: 2px solid #afafaf;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-style: italic;
+}
+input.input-footer.pull-right {
+    margin-left: 60px;
+}
+input.message-area.mt-5 {
+    width: 670px;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #afafaf;
+    font-style: italic;
+}
+button.send {
+    width: 177px;
+    height: 52px;
+    margin-top: 26px;
+    margin-left: 495px;
+    background: transparent;
+    border: 3px solid #222222;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
+/*footer*/
+
+
+/*copyright section*/
+.copyright-section{
+background-image: url("../img/copyright.jpg");
+width:100%;
+height: 361px;
+}
+.container.container-cpryt.text-center {
+    padding-top: 130px;
+}
+p.copyright-paragraph {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+span.drft-clr {
+    color: #2283b9;
+    font-weight: bold;
+}
+
+
+
+/*copyright section*/
