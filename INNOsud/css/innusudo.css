@@ -6,6 +6,48 @@ body,html{
     overflow-x: hidden;
 }
 
+/*fonts*/
+@font-face {
+  font-family: 'Amble-Bold';
+  src: url('fonts/Amble-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Amble-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Amble-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Amble-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Amble-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Amble-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Amble-Light';
+  src: url('fonts/Amble-Light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Amble-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Amble-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Amble-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Amble-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Amble-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'BigJohn';
+  src: url('fonts/BigJohn.eot'); /* IE9 Compat Modes */
+  src: url('fonts/BigJohn.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/BigJohn.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/BigJohn.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/BigJohn.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/BigJohn.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.myfont{
+    font-family: 'Amble-Bold';
+}
+.big-john-font-1{
+    font-family: 'BigJohn';
+}
+.amble-light-family{
+    font-family: 'Amble-Light';
+}
+
+
+/*fonts*/
+
 /*first section*/
 .first-section {
 
