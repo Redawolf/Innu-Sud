@@ -134,6 +134,7 @@ button.creativity-btn {
     border-style: solid;
     color: #fff;
     font-size: 25px;
+    outline: none;
 }
 
 
@@ -179,6 +180,7 @@ button.Show-More {
     border: 3px solid #222222;
     font-weight: bold;
     font-size: 22px;
+    outline: none;
 }
 
 
@@ -204,6 +206,7 @@ button.second-btn {
     font-weight: bold;
     font-size: 25px;
     margin-top: 200px;
+    outline: none;
 }
 
 
@@ -269,6 +272,7 @@ button.apply-btn {
     background: transparent;
     border: 2px solid #000;
     font-weight: bold;
+    outline: none;
 }
 
 
@@ -341,6 +345,7 @@ button.quote-button {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
+    outline: none;
 }
 
 
@@ -415,6 +420,7 @@ input.input-footer {
     border-right: none;
     border-left: none;
     font-style: italic;
+    outline: none;
 }
 input.input-footer.pull-right {
     margin-left: 60px;
@@ -426,6 +432,7 @@ input.message-area.mt-5 {
     background: transparent;
     border-bottom: 2px solid #afafaf;
     font-style: italic;
+    outline: none;
 }
 button.send {
     width: 177px;
@@ -436,6 +443,7 @@ button.send {
     border: 3px solid #222222;
     font-size: 22px;
     font-weight: bold;
+    outline: none;
 }
 
 
