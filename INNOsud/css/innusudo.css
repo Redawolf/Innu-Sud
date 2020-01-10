@@ -82,7 +82,7 @@ p.paragraph-section-1 {
     margin-top: 50px;
 }
 img.mouse-scroll-settings {
-    margin-top: 65px;
+    margin-top: 27px;
 }
 /*End first sectionn*/
 
@@ -474,3 +474,46 @@ span.drft-clr {
 
 
 /*copyright section*/
+/*nav section*/
+
+a.navbar-brand {
+    color: #339bbe;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 13px;
+}
+nav.navbar.navbar-expand-lg {
+    background: #f4f4f4;
+}
+li.nav-item.first-nav {
+    padding-left: 70px;
+    font-weight: bold;
+}
+a.nav-link.nav-settings {
+    color: #339bbe;
+    margin-left: 44px;
+}
+.input-fa-icon.position-absolute {
+    position: absolute!important;
+    right: 160px;
+}
+i.fas.fa-search.search-area {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #339bbe;
+    font-size: 20px;
+}
+button.btn.my-2.my-sm-0 {
+    background: #339bbe;
+    color: #fff;
+    font-weight: bold;
+}
+.row.nav-row {
+    margin-left: 130px;
+}
+i.fas.fa-bars.drop-navigation {
+    color: #339bbe;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/*nav section*/
