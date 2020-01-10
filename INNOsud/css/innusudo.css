@@ -530,6 +530,7 @@ button.back-to-top.float-right {
     position: fixed;
     right: 2%;
     top: 88%;
+    display: none;
 
 }
 /*back top top */
