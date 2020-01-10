@@ -491,7 +491,7 @@ li.nav-item.first-nav {
 }
 a.nav-link.nav-settings {
     color: #339bbe;
-    margin-left: 44px;
+    font-weight: 100;
 }
 .input-fa-icon.position-absolute {
     position: absolute!important;
@@ -509,7 +509,7 @@ button.btn.my-2.my-sm-0 {
     font-weight: bold;
 }
 .row.nav-row {
-    margin-left: 130px;
+    margin-left: 250px;
 }
 i.fas.fa-bars.drop-navigation {
     color: #339bbe;
@@ -517,3 +517,18 @@ i.fas.fa-bars.drop-navigation {
     margin-bottom: 10px;
 }
 /*nav section*/
+
+/*back top top */
+button.back-to-top.float-right {
+    width: 58px;
+    padding: 16px;
+    border-radius: 50%;
+    border: none;
+    background: aqua;
+    margin-right: 30px;
+    outline: none;
+    position: fixed;
+    right: 2%;
+    top: 65%;
+}
+/*back top top */
