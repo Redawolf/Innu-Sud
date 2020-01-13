@@ -445,6 +445,9 @@ button.send {
     font-weight: bold;
     outline: none;
 }
+.size-styling:hover {
+    color: #339bbe;
+}
 
 
 
@@ -530,7 +533,6 @@ button.back-to-top.float-right {
     position: fixed;
     right: 2%;
     top: 88%;
-    display: none;
 
 }
 /*back top top */
