@@ -489,8 +489,7 @@ nav.navbar.navbar-expand-lg {
     background: #f4f4f4;
 }
 li.nav-item.first-nav {
-    padding-left: 70px;
-    font-weight: bold;
+    padding-left: 50px;
 }
 a.nav-link.nav-settings {
     color: #339bbe;
@@ -518,6 +517,9 @@ i.fas.fa-bars.drop-navigation {
     color: #339bbe;
     font-size: 30px;
     margin-bottom: 10px;
+}
+a.nav-link.nav-settings.cursor {
+    cursor: help;
 }
 /*nav section*/
 
