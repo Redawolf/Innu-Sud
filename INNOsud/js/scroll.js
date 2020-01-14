@@ -1,18 +1,16 @@
+/* scroll settings back to top  */
+$(document).ready(function(){
+    $(window).scroll(function(){
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-
-    $('a.page-scroll[href*="#"]:not([href="#"])').on('click', function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: (target.offset().top -60)
-                }, 1200, "easeInOutExpo");
-                return false;
-            }
+        if($(this).scrollTop() >100){
+            $('#top').fadeIn('200');
+        }else{
+            $('#top').fadeOut('300');
         }
     });
-
+    $('#top').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 2000 );
+        return false;
+    });
 });
+
