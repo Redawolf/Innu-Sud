@@ -538,3 +538,6 @@ button.back-to-top.float-right {
 
 }
 /*back top top */
+form.form-inline.mr-5 {
+    display: contents;
+}
